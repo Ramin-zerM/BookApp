@@ -7,14 +7,14 @@ const styles = StyleSheet.create({
     backgroundColor: "#f9fafb",
     alignItems: "center",
     justifyContent: "center",
-    padding: 20,
+    padding: 100,
   },
   header: {
-    marginBottom: 40,
+    marginBottom: 100,
     alignItems: "center",
   },
   title: {
-    fontSize: 32,
+    fontSize: 50,
     fontWeight: "bold",
     color: "#1f2937",
   },
@@ -24,12 +24,12 @@ const styles = StyleSheet.create({
   button: {
     width: "100%",
     paddingVertical: 15,
-    borderRadius: 12,
+    borderRadius: 50,
     alignItems: "center",
     marginBottom: 15, 
   },
   signupButton: {
-    backgroundColor: "#2563eb",
+    backgroundColor: "#003092",
   },
   signupText: {
     color: "#fff",
@@ -37,7 +37,7 @@ const styles = StyleSheet.create({
     fontWeight: "600",
   },
   loginButton: {
-    backgroundColor: "#da91edff",
+    backgroundColor: "#294a8bff",
   },
   loginText: {
     color: "#fff",
@@ -45,10 +45,10 @@ const styles = StyleSheet.create({
     fontWeight: "600",
   },
   secondaryButton: {
-    backgroundColor: "#83fff1ff",
+    backgroundColor: "#4e6898ff",
   },
   secondaryText: {
-    color: "#374151",
+    color: "#ffffffff",
     fontSize: 16,
     fontWeight: "500",
   },

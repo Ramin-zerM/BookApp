@@ -15,7 +15,6 @@ const BookForm = ({ initial, onSubmit, submitLabel = "Save" }: BookFormProps) =>
   const [year, setYear] = useState("");
   const [price, setPrice] = useState("");
 
-  // โหลดค่าเริ่มต้นจาก initial (เวลามีการแก้ไขหนังสือ)
   useEffect(() => {
     if (initial) {
       setTitle(initial.title || "");

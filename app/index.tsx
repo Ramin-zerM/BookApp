@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <View style={styles.container}>
       <View style={styles.header}>
-        <Text style={styles.title}>Welcome</Text>
+        <Text style={styles.title}>My Library</Text>
       </View>
 
       <View style={styles.buttonGroup}>
